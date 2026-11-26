@@ -1,0 +1,32 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+coverage/
+*.log
+*.pem
+*.key
+.secrets/
+.local/
+
+# Dados de acesso e configuracoes locais
+.claude/settings.local.json
+*.cookie
+cookies*.json
+credentials*.json
+*.token
+
+# Fotos de produtos e cadastros (pesados / particulares da loja)
+fotos-quadradas/
+cadastro-*/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic
+
+# Planilhas com dados da loja
+planilhas/
+*.xlsx
+*.csv
